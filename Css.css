@@ -1,6 +1,5 @@
 <!--Commit Inicial-->
 
-/* Estilo para o título principal */
 h1 {
   font-size: 36px;
   color: crimson;
@@ -10,7 +9,6 @@ h1 {
   padding-bottom: 10px;
 }
 
-/* Estilo para subtítulos */
 h2 {
   font-size: 28px;
   color: darkblue;
@@ -27,7 +25,7 @@ h4 {
   font-style: italic;
 }
 
-/* Estilo para o parágrafo */
+
 p {
   font-size: 18px;
   color: gray;
@@ -35,7 +33,7 @@ p {
   margin: 20px;
 }
 
-/* Estilo para a lista ordenada */
+
 ol {
   list-style-type: decimal;
   margin-left: 40px;
@@ -48,7 +46,7 @@ li {
   margin-bottom: 5px;
 }
 
-/* Estilo geral do corpo */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
