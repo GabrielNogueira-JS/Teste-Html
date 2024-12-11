@@ -1,1 +1,58 @@
 <!--Commit Inicial-->
+
+/* Estilo para o título principal */
+h1 {
+  font-size: 36px;
+  color: crimson;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+/* Estilo para subtítulos */
+h2 {
+  font-size: 28px;
+  color: darkblue;
+}
+
+h3 {
+  font-size: 24px;
+  color: green;
+}
+
+h4 {
+  font-size: 20px;
+  color: orange;
+  font-style: italic;
+}
+
+/* Estilo para o parágrafo */
+p {
+  font-size: 18px;
+  color: gray;
+  text-align: justify;
+  margin: 20px;
+}
+
+/* Estilo para a lista ordenada */
+ol {
+  list-style-type: decimal;
+  margin-left: 40px;
+}
+
+li {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Estilo geral do corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
