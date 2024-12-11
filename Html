@@ -1,21 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<title> Metallica,as melhores </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metallica, as melhores</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
 </head>
 <body>
-<h1> Now that we're dead </h1>
-<h2> Atlas,Rise! </h2>
-<h3> Master of Puppets </h3>
-<h4> Wiplash </h4>
-<h5> Deixe sua estrela em meu repositório!</h5>
-<P> <em><strong>Primeira vez interagindo com html</strong><em> </P>
-<ol>
-<li> <strong>Nada</strong> </li>
-<li> Supera </li>
-<li> o Magnífico </li>
-<li> Heavy </li>
-<li> Metal </li>
-</ol>
+
+    <h1>Now that we're dead</h1>
+    <h2>Atlas, Rise!</h2>
+    <h3>Master of Puppets</h3>
+    <h4>Whiplash</h4>
+    <h5>Deixe sua estrela em meu repositório!</h5>
+
+    <p><em><strong>Primeira vez interagindo com HTML</strong></em></p>
+
+    <ol>
+        <li><strong>Nada</strong></li>
+        <li>Supera</li>
+        <li>o Magnífico</li>
+        <li>Heavy</li>
+        <li>Metal</li>
+    </ol>
+
+    <!-- Aqui será inserida a imagem -->
+    <div id="image-container"></div>
+
+    <script>
+        // Aguarda até que o DOM esteja completamente carregado
+        window.onload = function() {
+            // Cria um novo elemento <img>
+            let img = document.createElement("img");
+
+            // Define o link da imagem
+            img.src = "https://i.imgur.com/KxgDLJt.jpeg";  // Link da imagem do Metallica
+
+            // Adiciona uma descrição alternativa para a imagem
+            img.alt = "Metallica no auge";
+
+            // Adiciona a imagem ao elemento com id "image-container"
+            document.getElementById("image-container").appendChild(img);
+        };
+    </script>
+
 </body>
 </html>
