@@ -16,19 +16,19 @@ h2 {
 
 h3 {
   font-size: 24px;
-  color: darkgreen;
+  color: black;
 }
 
 h4 {
   font-size: 20px;
-  color: orange;
+  color: darkred;
   font-style: italic;
 }
 
 
 p {
   font-size: 18px;
-  color: gray;
+  color: black;
   text-align: justify;
   margin: 20px;
 }
@@ -41,7 +41,7 @@ ol {
 
 li {
   font-size: 16px;
-  color: black;
+  color: purple;
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -50,7 +50,7 @@ li {
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
-  color: black;
+  color: brown;
   margin: 0;
   padding: 0;
 }
